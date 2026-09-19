@@ -1,0 +1,26 @@
+{
+    "email_settings": {
+        "cc_email": "",
+        "subject_template": "Payment Approval: Loeb Leadership For {full_name}",
+        "body_template": "Hello {full_name},\n\nPlease find attached the payment approval documents. Let me know if you have any questions.\n\nThank you."
+    },
+    "attachment_folders": {
+        "w9_folder_path": "attachments\\text",
+        "invoice_folder_path": "attachments\\newpdf"
+    },
+    "bot_delays": {
+        "wait_between_emails_seconds": 5,
+        "page_load_wait_seconds": 10
+    },
+    "features": {
+        "update_sender_name": true
+    },
+    "account_settings": {
+        "google_sheet_csv_url": "",
+        "accounts_csv_path": "input_data\\accounts.csv",
+        "default_send_limit": 0,
+        "profile_root": "chrome_profiles",
+        "force_fresh_login": false,
+        "manual_login_wait_seconds": 90
+    }
+}

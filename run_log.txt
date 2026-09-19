@@ -1,0 +1,82 @@
+﻿==================================================
+GMAIL WEB UI AUTOMATION BOT - STARTED (DEBUG MODE)
+==================================================
+[+] Templates loaded successfully
+[+] Total 2 contacts loaded successfully.
+[*] Initializing undetected-chromedriver...
+[!] Auto-detect failed: Message: session not created: cannot connect to chrome at 127.0.0.1:42882
+from session not created: This version of ChromeDriver only supports Chrome version 149
+Current browser version is 148.0.7778.217; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	undetected_chromedriver!GetHandleVerifier [0x130f9c3+106c3]
+	undetected_chromedriver!GetHandleVerifier [0x130fa04+10704]
+	undetected_chromedriver!(No symbol) [0x110a830]
+	undetected_chromedriver!(No symbol) [0x1146692]
+	undetected_chromedriver!(No symbol) [0x11456cc]
+	undetected_chromedriver!(No symbol) [0x113b7b5]
+	undetected_chromedriver!(No symbol) [0x113b5d6]
+	undetected_chromedriver!(No symbol) [0x1181f8f]
+	undetected_chromedriver!(No symbol) [0x11817a7]
+	undetected_chromedriver!(No symbol) [0x1176026]
+	undetected_chromedriver!(No symbol) [0x1149289]
+	undetected_chromedriver!(No symbol) [0x114a054]
+	undetected_chromedriver!GetHandleVerifier [0x15944aa+2951aa]
+	undetected_chromedriver!GetHandleVerifier [0x158fb06+290806]
+	undetected_chromedriver!GetHandleVerifier [0x15aff3b+2b0c3b]
+	undetected_chromedriver!GetHandleVerifier [0x1329e86+2ab86]
+	undetected_chromedriver!GetHandleVerifier [0x13311fd+31efd]
+	undetected_chromedriver!GetHandleVerifier [0x1318388+19088]
+	undetected_chromedriver!GetHandleVerifier [0x1318535+19235]
+	undetected_chromedriver!GetHandleVerifier [0x130120f+1f0f]
+	KERNEL32!BaseThreadInitThunk [0x76095d49+19]
+	ntdll!RtlInitializeExceptionChain [0x772cd83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x772cd7c1+231]
+
+[*] Trying undetected-chromedriver fallback with version_main=148...
+[+] Browser started with undetected-chromedriver version 148
+[!] Waiting up to 10 seconds for Inbox to load...
+
+--- Processing Row 1: John Doe ---
+[*] Step 0 is disabled for debugging.
+[*] Drafting email for: John Doe
+    -> Clicking Compose...
+    -> Waiting for compose window...
+    -> Step 2: Filling 'To' and 'Cc'...
+    -> Adding CC...
+    [!] Could not find CC button: Message: 
+
+    -> CC added successfully
+    -> Step 1: Filling Subject and Body from Notepad...
+    -> Subject filled
+    -> Message body filled
+[+] Email draft ready with To, Cc, Subject, and Body.
+    -> Step 3: Attaching W9 (attachments\text\w9_form.pdf)...
+    -> Step 3: Attaching Invoice (attachments\newpdf\innovice.pdf)...
+    -> Waiting for attachments to finish uploading...
+    -> Step 4: Clicking Send button...
+[+] SUCCESS: Email sent to mariashiqhussain110@gmail.com
+
+--- Processing Row 2: Sarah Smith ---
+[*] Step 0 is disabled for debugging.
+[*] Drafting email for: Sarah Smith
+    -> Clicking Compose...
+    -> Waiting for compose window...
+    -> Step 2: Filling 'To' and 'Cc'...
+    -> Adding CC...
+    [!] Could not find CC button: Message: 
+
+    -> CC added successfully
+    -> Step 1: Filling Subject and Body from Notepad...
+    -> Subject filled
+    -> Message body filled
+[+] Email draft ready with To, Cc, Subject, and Body.
+    -> Step 3: Attaching W9 (attachments\text\w9_form.pdf)...
+    -> Step 3: Attaching Invoice (attachments\newpdf\innovice.pdf)...
+    -> Waiting for attachments to finish uploading...
+    -> Step 4: Clicking Send button...
+[+] SUCCESS: Email sent to malisahab789@gmail.com
+
+==================================================
+TASKS STOPPED. Closing browser...
+==================================================
+[+] Browser closed successfully

@@ -1,0 +1,3 @@
+account_email,password,2fa,2fa_secret,recovery_email,send_limit,sender_name
+sender1@gmail.com,example-password,,EXAMPLEBASE32SECRET,backup@example.com,25,Sender One
+sender2@gmail.com,example-password,123456,,backup2@example.com,25,Sender Two
